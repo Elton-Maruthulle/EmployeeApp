@@ -1,0 +1,137 @@
+/* .avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+*{
+    box-sizing: 0;
+    padding: 0;
+}
+
+
+.Mainpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.maincontainer{
+    display: flex;
+    background-color: #000000;
+}
+
+.leftside{
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center ;
+    /* padding: 5%; */
+    /* background-color: #17101C; */
+
+}
+.topnavbar{
+    background-color:#000000;
+    color: #ffffff;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    font-size: larger;
+}
+.search{
+    margin-bottom: 2vh;
+    margin-top: 7vh;
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+ 
+
+}
+.search_content1{
+    background-color:#ffffff;
+    color: #000000;
+    width: 10vw;
+    height: 2vh;
+}
+
+.leftbar_content{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 50vw;
+}
+.formcontent{
+    color: #000000;
+}
+.input1{
+    width: 20vw;
+    height: 4vh;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.input2{
+    color: #000000;
+    text-align: center;
+}
+.button1{
+    border: 2px solid #3700B3;
+    width: 5vw;
+    height: 2vh;
+    border-radius: 4px;
+    background-color: #3700B3;
+    color: #ffffff;
+}
+    
+
+
+.rightside{
+    width: 50vw;
+    height: 90vh;
+    background: rgb(27,18,21);
+    background: linear-gradient(90deg, rgba(27,18,21,1) 0%, rgba(255,255,255,1) 0.5%);
+    overflow-y: scroll;
+    height: calc(100%  100px);
+    
+}
+.Saved_Data{
+    margin-top: 20vh;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.button2{
+    border: 2px solid red;
+    width: 4vw;
+    height: 2vh;
+    border-radius: 4px;
+    background-color: red;
+    color: #ffffff;
+    margin-right: 1vw;
+}
+.button3{
+    border: 2px solid rgb(0, 140, 255);
+    width: 4vw;
+    height: 2vh;
+    border-radius: 4px;
+    background-color: rgb(0, 140, 255);
+    color: #ffffff;
+    
+}
+  
+  
